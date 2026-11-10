@@ -1,6 +1,7 @@
 # Samsung Global Product Sales: Predictive Analytics & Power BI Dashboard
-This project combines exploratory data analysis, advanced time-series forecasting, and an interactive business intelligence reporting suite to evaluate Samsung's global retail performance, regional demand patterns, and product lifecycles.
 ---
+This project combines exploratory data analysis, advanced time-series forecasting, and an interactive business intelligence reporting suite to evaluate Samsung's global retail performance, regional demand patterns, and product lifecycles.
+
 ## 🧠 Project Logic & Methodology
 
 This repository is split into two core analytical tracks that move from statistical time-series forecasting to interactive commercial business intelligence:
