@@ -19,9 +19,9 @@ This repository is split into two core analytical tracks that move from statisti
 
 * **Core Objective:** Translate complex transactional datasets into a dynamic, stakeholder-ready reporting suite to evaluate regional market positioning and product performance.
 * **Underlying Logic:**
-* **Data Modeling & Relationships:** Establishes relational links between sales transactions, regional hierarchies, and temporal attributes using Power Query and DAX.
-* **Market Potential & Growth Matrix:** Plots regional revenue scale against growth momentum to segment markets into strategic quadrants (Core vs. Untapped).
-* **Product & Pricing Strategy Analysis:** Evaluates revenue distribution across price bands, product tiers (Budget, Mid-range, Premium), and year-over-year tier growth.
+ * **Data Modeling & Relationships:** Establishes relational links between sales transactions, regional hierarchies, and temporal attributes using Power Query and DAX.
+ * **Market Potential & Growth Matrix:** Plots regional revenue scale against growth momentum to segment markets into strategic quadrants (Core vs. Untapped).
+ * **Product & Pricing Strategy Analysis:** Evaluates revenue distribution across price bands, product tiers (Budget, Mid-range, Premium), and year-over-year tier growth.
 
 📊 Key Findings from Power BI Dashboards
 The Power BI multi-dashboard reporting suite uncovers critical commercial insights across global markets:
