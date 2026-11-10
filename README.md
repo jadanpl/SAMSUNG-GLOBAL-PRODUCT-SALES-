@@ -23,8 +23,7 @@ This repository is split into two core analytical tracks that move from statisti
  * **Market Potential & Growth Matrix:** Plots regional revenue scale against growth momentum to segment markets into strategic quadrants (Core vs. Untapped).
  * **Product & Pricing Strategy Analysis:** Evaluates revenue distribution across price bands, product tiers (Budget, Mid-range, Premium), and year-over-year tier growth.
 
-📊 Key Findings from Power BI Dashboards
-The Power BI multi-dashboard reporting suite uncovers critical commercial insights across global markets:
+📊 **Key Findings from Power BI Dashboards**
 
 * **Regional Market Positioning**:
   * Europe and Asia emerge as dominant core revenue drivers, capturing the highest volume of total sales and unit distribution.
