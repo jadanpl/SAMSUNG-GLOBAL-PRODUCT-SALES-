@@ -2,6 +2,42 @@
 
 This project combines exploratory data analysis, advanced time-series forecasting, and an interactive business intelligence reporting suite to evaluate Samsung's global retail performance, regional demand patterns, and product lifecycles.
 
+## 📋 Dataset Architecture & Attribute Dictionary
+
+The analysis is built upon transactional, product-level, market-level, and customer-level attributes from the Samsung Global Product Sales dataset. 
+Below is the complete data dictionary defining each field:
+
+| Field Name | Field Description |
+| --- | --- |
+| **Sale_ID** | Unique identifier for each sales transaction |
+| **Sale_date** | Date of the sale |
+| **Year** | Year extracted from `sale_date` |
+| **Quarter** | Quarter of the year (e.g., Q2, Q4) |
+| **Month** | Month of the sale, sometimes shown as % distribution |
+| **Country** | Country where the sale occurred |
+| **City** | City where the sale occurred |
+| **Product_name** | Name/model of the Samsung product sold |
+| **Category** | Product category (e.g., Galaxy S, Accessories, Monitor) |
+| **Storage** | Storage capacity of the device (e.g., 128 GB, 1 TB) |
+| **Color** | Color of the product |
+| **Is_5g** | Whether the device supports 5G (true/false or Yes/No) |
+| **Unit_price_usd** | Price per unit in USD |
+| **Discount_pct** | Discount percentage applied to the sale |
+| **Units_sold** | Number of units sold in the transaction |
+| **Discounted_price** | Price after discount applied |
+| **Revenue_usd** | Total revenue in USD (`units_sold` $\times$ `discounted_price`) |
+| **Currency** | Currency used for the transaction (e.g., EUR, NOK, ARS) |
+| **Sales_channel** | Channel through which the sale was made (e.g., E-commerce Platform, Corporate/B2B, Carrier Store) |
+| **Payment_method** | Method of payment (e.g., Cash, EMI, Debit Card, BNPL) |
+| **Customer_segment** | Customer type (e.g., Government, Individual, Enterprise, Education) |
+| **Customer_age_group** | Age range of the customer (e.g., 18-24, 25-34, 55+) |
+| **Previous device** | Previous device owned by the customer (e.g., Android/Samsung, New User, N/A) |
+| **Customer_rating** | Customer satisfaction rating (2.5 to 5.0 scale) |
+| **Return_status** | Whether the product was kept or returned |
+| **Exchange_rate** | Implied exchange rate used to convert local currency to USD (e.g., 907.0 ARS per USD) |
+| **Local_currency_price** | Price in local currency before conversion to USD |
+| **Local_currency_revenue** | Revenue in local currency (`units_sold` $\times$ discounted price in local currency) |
+
 ## 🧠 Project Logic & Methodology
 
 This repository is split into two core analytical tracks that move from statistical time-series forecasting to interactive commercial business intelligence:
