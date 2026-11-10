@@ -10,10 +10,10 @@ This repository is split into two core analytical tracks that move from statisti
 
 * **Core Objective:** Project future monthly sales revenue across unified product categories to support proactive inventory and financial planning.
 * **Underlying Logic:**
-* **Data Preprocessing & Cleaning:** Ingests raw transactional data, parses string timestamps into valid datetimes, handles missing values, and sorts entries chronologically.
-* **Monthly Aggregation & Mapping:** Resamples transaction data into monthly intervals (`freq='ME'`) and groups granular product models into unified categories (**Home Appliance**, **Smartphone**, **Tablets & Accessories**, and **Wearables**).
-* **Seasonal Decomposition:** Isolates the underlying long-term trend, repeating annual seasonal cycles, and irregular residual noise.
-* **SARIMAX Modeling:** Upgrades standard non-seasonal models to a **SARIMA** framework (`seasonal_order=(1, 1, 1, 12)`) to capture repeating yearly waves and generate robust 6-month revenue forecasts accompanied by 95% confidence intervals.
+ * **Data Preprocessing & Cleaning:** Ingests raw transactional data, parses string timestamps into valid datetimes, handles missing values, and sorts entries chronologically.
+ * **Monthly Aggregation & Mapping:** Resamples transaction data into monthly intervals (`freq='ME'`) and groups granular product models into unified categories (**Home Appliance**, **Smartphone**, **Tablets & Accessories**, and **Wearables**).
+ * **Seasonal Decomposition:** Isolates the underlying long-term trend, repeating annual seasonal cycles, and irregular residual noise.
+ * **SARIMAX Modeling:** Upgrades standard non-seasonal models to a **SARIMA** framework (`seasonal_order=(1, 1, 1, 12)`) to capture repeating yearly waves and generate robust 6-month revenue forecasts accompanied by 95% confidence intervals.
 
 ### Track 2: Commercial Intelligence & Multi-Dashboard Suite (Power BI)
 
