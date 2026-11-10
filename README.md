@@ -31,13 +31,12 @@ The Power BI multi-dashboard reporting suite uncovers critical commercial insigh
   * Emerging regions show high growth momentum but lower absolute market size, highlighting clear expansion opportunities for targeted marketing campaigns.
 
 * **Product Tier & Portfolio Dynamics**:
-* Mid-range and budget devices drive the highest transaction volumes and unit sales, while premium flagship devices (such as foldable and Galaxy S series) contribute disproportionately to total revenue value.
-* Accessories and wearable ecosystems demonstrate strong cross-selling potential when bundled with smartphone purchases.
+ * Mid-range and budget devices drive the highest transaction volumes and unit sales, while premium flagship devices (such as foldable and Galaxy S series) contribute disproportionately to total revenue value.
+ * Accessories and wearable ecosystems demonstrate strong cross-selling potential when bundled with smartphone purchases.
 
 * **Pricing & Discounting Efficiency**:
   * Moderate promotional discounting effectively boosts unit velocity, but excessive discounting on premium tiers yields diminishing returns on overall net revenue.
 
----
 ## 🛠️ Tech Stack & Libraries
 * **Python:** Pandas, NumPy, Statsmodels (`SARIMAX`, `seasonal_decompose`), Matplotlib
 * **Business Intelligence:** Power BI Desktop (Power Query, DAX, Interactive Slicers)
